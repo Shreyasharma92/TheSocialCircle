@@ -6,9 +6,10 @@ class Routes {
   static String initial = home;
   static const String home = '/home';
 
-
-/// Setting the routes screens
-  static Map<String, Widget Function(BuildContext)> routes() => {
-        home: (ctx) => HomePage()
-  };
+  /// Setting the routes screens
+  static Map<String, Widget Function(BuildContext)> routes() =>
+      {home: (ctx) => HomePage()};
 }
+
+
+

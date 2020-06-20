@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
 
     final startingText= Column(
             children: <Widget>[Text(
-                    "You usually get more joy ",
+                    "You tend to find talking",
                                         style: TextStyle(
                         
                         color: Colors.grey[600],
@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
                     textAlign: TextAlign.center,
                   ),
                   Text(
-                    "out of",
+                    "to new people",
                     maxLines: 3,
                     
                    // minLines:
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
           borderRadius: BorderRadius.circular(5.0),
           side: BorderSide(color: Colors.grey[300], width: 2.0),
         ),
-        child: Text("reading a great book",
+        child: Text("awkward",
             textAlign: TextAlign.center,
             style: style.copyWith(
                 color: Color(0xff757575), fontWeight: FontWeight.bold)),
@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(4.0)
         ),
-        child: Text("watching a great movier",
+        child: Text("energizing",
             textAlign: TextAlign.center,
             style: style.copyWith(
                 color: Color(0xfffafafa),
