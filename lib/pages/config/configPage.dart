@@ -11,6 +11,10 @@ class _ConfigPageState extends State<ConfigPage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Likeminded',
+      theme: ThemeData(
+        primarySwatch: Colors.purple,
+        // hintColor: Colors.grey[200],
+      ),
       debugShowCheckedModeBanner: false,
       initialRoute: Routes.initial,
       routes: Routes.routes(),
